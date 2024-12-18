@@ -1,6 +1,6 @@
 import os 
  
- 
+
 
 from pathlib import Path
 
@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'diary.apps.DiaryConfig',
+    'users.apps.UserConfig',
 ]
 
 MIDDLEWARE = [
